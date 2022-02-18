@@ -6,11 +6,11 @@ endMsg = "\r\n.\r\n"
 # 选择一个邮件服务
 mailServer = "smtp.163.com"
 # 发送方地址和接收方地址，from 和 to
-fromAddress = "mo20077t@163.com"
-toAddress = "1587736356@qq.com"
+fromAddress = "*****" #发送方邮箱
+toAddress = "******"  #接收方邮箱
 # 发送方，验证信息，由于邮箱输入信息会使用base64编码，因此需要进行编码
-username = "bW8yMDA3N3RAMTYzLmNvbQ=="  # 输入自己的用户名对应的编码
-password = "RENLSUFQUUxQU0lYS05IQg=="  # 输入开启SMTP服务时对应的授权码的编码
+username = "******"  # 输入自己的用户名对应的编码
+password = "******"  # 输入开启SMTP服务时对应的授权码的编码
 
 # 创建客户端套接字并建立连接
 serverPort = 25  # SMTP使用25号端口
