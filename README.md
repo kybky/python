@@ -43,7 +43,7 @@ TFTP、SNMP、 NFS、DNS、BOOTP 等，通常占用
 注意在不同的计算机语言实现中，上述调用的名字和具体工作流程可能略有不同。基于
 Python 的 UDP 程序工作详细流程如图2.1–1所示。
 
-![](media/2b90352f101f3f82b84d1fbf20604ef7.png)
+![](https://github.com/kybky/python-software/blob/main/image/1.png)
 
 基于 Python 进行 UDP 消息的接收操作时，Python
 程序将工作在阻塞状态，即未收到数据包时， Python
@@ -62,13 +62,13 @@ Python 的 UDP 程序工作详细流程如图2.1–1所示。
 
 运行UDP_Pinger_Server.py
 
-![](media/4024541d99a6aaf695b59152911d0c41.png)
+![](https://github.com/kybky/python-software/blob/main/image/2.png)
 
 **启动客户端**
 
 在终端输入**python UDP_Pinger_Client.py 127.0.0.1 12000** 回车
 
-![](media/93baa1bc86fceef4aa8897cb1bd5c5b8.png)
+![](https://github.com/kybky/python-software/blob/main/image/3.png)
 
 如图，第一次和第四次未在1秒内响应，打印了“Request timed
 out.”,其他成功打印了响应消息，计算所有 ping
@@ -109,7 +109,7 @@ avgRTT为0.20167s，并计算丢包率为20.00%。
     注意在不同的计算机语言实现中，上述调用的名字和具体工作流程可能略有不同。基于
     Python 的 TCP 客户端/服务器具体工作流程如图2.2–1所示。
 
-![](media/bbf8ae20d79754ebf846ebbb6f88cdab.png)
+![](https://github.com/kybky/python-software/blob/main/image/4.png)
 
 ## **三、测试过程**
 
@@ -117,7 +117,7 @@ avgRTT为0.20167s，并计算丢包率为20.00%。
 
 在同一个文件夹下写一个hello.html
 
-![](media/5a37e7ce9ea86b363efad85e548a9473.png)
+![](https://github.com/kybky/python-software/blob/main/image/5.png)
 
 代码：
 
@@ -139,19 +139,19 @@ avgRTT为0.20167s，并计算丢包率为20.00%。
 
 显示Read to serve...启动成功
 
-![](media/e7edfa7348c41b6c03e1177c7f709afb.png)
+![](https://github.com/kybky/python-software/blob/main/image/6.png)
 
 在浏览器中输入 <http://127.0.0.1:6789/hello.html>（同一文件夹中存在）
 
-![](media/787b8e1acb87c944db254428b979782c.png)
+![](https://github.com/kybky/python-software/blob/main/image/7.png)
 
 在浏览器中输入 <http://127.0.0.1:6789/no.html>（文件夹中不存在）,显示404
 
-![](media/fef115ba7ec741a45ae5088e9ca76ad2.png)
+![](https://github.com/kybky/python-software/blob/main/image/8.png)
 
 命令框继续，并没有因为访问一遍而关闭。
 
-![](media/95351a7ff102201531e0696b3bbf8611.png)
+![](https://github.com/kybky/python-software/blob/main/image/9.png)
 
 **2、多线程记录：**
 
@@ -163,13 +163,13 @@ avgRTT为0.20167s，并计算丢包率为20.00%。
 
 serverSocket.bind(("192.168.140.1", serverPort))
 
-![](media/310f449786baed20eaac7158c2ab7f93.png)
+![](https://github.com/kybky/python-software/blob/main/image/10.png)
 
-![](media/6acf0b768c9a1769b31e926386db878a.png)
+![](https://github.com/kybky/python-software/blob/main/image/11.png)
 
 服务器仍继续运行，并未因为一个访问导致关闭而其他主机无法访问的现象！
 
-![](media/68eb12b9477e5c1eed14e888394b7fcd.png)
+![](https://github.com/kybky/python-software/blob/main/image/12.png)
 ****
 # **简单的 SMTP 客户端程序**
 
@@ -204,7 +204,7 @@ MGVEJWR？\*QY CDQWV RKEMNGU？。以下流程展示了运行在发送方邮件�
 户端（C）和运行在接收方邮件服务器上的 SMTP 服务器（S）之间交换 SMTP
 报文文本的实际通信 过程：
 
-![](media/1597d5dcb7e42996a88b274eb041eb59.png)
+![](https://github.com/kybky/python-software/blob/main/image/13.png)
 
 注意：以 %开头的 ASCII 码文本行是 SMTP 客户端通过 TCP 套接字发出的消息，而以 5
 开 头的 ASCII 码则是 SMTP 服务器通过 TCP 套接字发出的消息。
@@ -228,26 +228,26 @@ MGVEJWR？\*QY CDQWV RKEMNGU？。以下流程展示了运行在发送方邮件�
 
 运行代码
 
-![](media/d22e8f793185387048b54bc90e8c6a3d.png)
+![](https://github.com/kybky/python-software/blob/main/image/14.png)
 
 邮件发送成功！
 
-![](media/61136911b9a5bbff1f6b65f66b873b38.png)
+![](https://github.com/kybky/python-software/blob/main/image/15.png)
 
-![](media/3aca174393343b4cd78ea1b32ada8e59.png)
+![](https://github.com/kybky/python-software/blob/main/image/16.png)
 
 发到室友邮箱，成功！
 
-![](media/6493a3c9f5149357c5150fa91f94bc81.png)
+![](https://github.com/kybky/python-software/blob/main/image/17.png)
 
 如果没有输入授权码或未对授权码进行64位编码，则会导致如下情况，连接失败。
 
-![](media/584b292ebcb83674defd61c0ef3e6738.png)
+![](https://github.com/kybky/python-software/blob/main/image/18.png)
 ****
 # **网易云音乐爬虫**
 
 爬取后得到歌曲名称和歌曲href
 
-![](media/3f4bb021d1baadff367ca607858e8d55.png)
+![](https://github.com/kybky/python-software/blob/main/image/19.png)
 
-![](media/5f1a452d53ec91ded3a03c2af81ae998.png)
+![](https://github.com/kybky/python-software/blob/main/image/20.png)
